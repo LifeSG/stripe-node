@@ -97,6 +97,8 @@ declare module 'stripe' {
       timeout?: number;
 
       host?: string;
+      
+      basePath?: string;
 
       port?: string | number;
 

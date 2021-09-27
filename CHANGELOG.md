@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 8.176.1
+* custom modification to support changing of basePath while initiating Stripe
+
 ## 8.176.0 - 2021-09-16
 * [#1248](https://github.com/stripe/stripe-node/pull/1248) API Updates
   * Add support for `full_name_aliases` on `AccountUpdateParams.individual`, `AccountCreateParams.individual`, `PersonCreateParams`, `PersonUpdateParams`, `Person`, `TokenCreateParams.account.individual`, and `TokenCreateParams.person`
