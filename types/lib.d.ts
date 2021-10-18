@@ -97,7 +97,7 @@ declare module 'stripe' {
       timeout?: number;
 
       host?: string;
-      
+
       basePath?: string;
 
       port?: string | number;
@@ -121,6 +121,11 @@ declare module 'stripe' {
        * An account id on whose behalf you wish to make every request.
        */
       stripeAccount?: string;
+
+      /*
+      * API Gateway key
+      * */
+      xApiKey?: string
     }
 
     export interface RequestOptions {

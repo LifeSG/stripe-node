@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 8.178.2
+* added `x-api-key` header
+
 ## 8.176.1
 * custom modification to support changing of basePath while initiating Stripe
 
@@ -142,7 +145,7 @@
 
 ## 8.154.0 - 2021-06-07
 * [#1170](https://github.com/stripe/stripe-node/pull/1170) API Updates
-  * Added support for `tax_id_collection` on Checkout `Session.tax_id_collection` and `SessionCreateParams` 
+  * Added support for `tax_id_collection` on Checkout `Session.tax_id_collection` and `SessionCreateParams`
   * Update `Terminal.Reader.location` to be expandable (TypeScript breaking change)
 
 ## 8.153.0 - 2021-06-04
@@ -181,7 +184,7 @@
   * Update Typescript for `CouponCreateParams.duration` and `CouponCreateParams.products` to be optional.
 * [#1158](https://github.com/stripe/stripe-node/pull/1158) API Updates
   * `AccountUpdateParams.business_profile.support_url` and `AccountCreatParams.business_profile.support_url` changed from `string` to `Stripe.Emptyable<string>`
-  * `File.purpose` added new enum members: `finance_report_run`, `document_provider_identity_document`, and `sigma_scheduled_query` 
+  * `File.purpose` added new enum members: `finance_report_run`, `document_provider_identity_document`, and `sigma_scheduled_query`
 
 ## 8.148.0 - 2021-05-06
 * [#1154](https://github.com/stripe/stripe-node/pull/1154) API Updates
@@ -198,7 +201,7 @@
 
 ## 8.145.0 - 2021-04-21
 * [#1143](https://github.com/stripe/stripe-node/pull/1143) API Updates
-  * Add support for `single_member_llc` as an enum member of `Account.company.structure` and `TokenCreateParams.account.company.structure` added new enum members: 
+  * Add support for `single_member_llc` as an enum member of `Account.company.structure` and `TokenCreateParams.account.company.structure` added new enum members:
   * Add support for `dhl` and `royal_mail` as enum members of `Issuing.Card.shipping.carrier`.
 * [#1142](https://github.com/stripe/stripe-node/pull/1142) Improve type definition for for `AccountCreateParams.external_account`
 
@@ -380,7 +383,7 @@
 * [#1035](https://github.com/stripe/stripe-node/pull/1035) Add support for `setup_intent.requires_action` on Event
 
 ## 8.109.0 - 2020-10-09
-* [#1033](https://github.com/stripe/stripe-node/pull/1033) Add support for internal-only `description`, `iin`, and `issuer` for `card_present` and `interac_present` on `Charge.payment_method_details` 
+* [#1033](https://github.com/stripe/stripe-node/pull/1033) Add support for internal-only `description`, `iin`, and `issuer` for `card_present` and `interac_present` on `Charge.payment_method_details`
 
 ## 8.108.0 - 2020-10-08
 * [#1028](https://github.com/stripe/stripe-node/pull/1028) Add support for `Bancontact/iDEAL/Sofort -> SEPA`
